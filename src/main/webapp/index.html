@@ -9,5 +9,28 @@
         <h2>Xavier Centelles Sancho</h2>
         <p>Modificació desde GitHub.com</p>
         <img src="#" alt="Galeria d'imatges"/>
+        
+        <form action="/processar-formulari" method="post">
+
+            <div>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="missatge">Missatge:</label>
+                <textarea id="missatge" name="missatge" rows="5" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
     </body>
 </html>

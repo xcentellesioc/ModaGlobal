@@ -1,0 +1,1 @@
+// Aquest fitxer fa que les imatges s'engrandeixin en fer clic.
